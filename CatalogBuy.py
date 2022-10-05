@@ -1,4 +1,6 @@
-# from lib2to3.pgen2 import driver
+# Данный скрипт проверяет добавление нескольких товарных изделий в корзину, ввод пользовательских данных
+# и оформление заказа.
+
 import time
 
 from selenium import webdriver
