@@ -20,7 +20,6 @@ jewelry_amount = 3
 # функция для добавления в корзину N позиций через карточку товара
 def buy_jewelry(n:int):
     for i in (range(1, n+1)):
-
         # Переходим в товарную позицию из каталога
         driver.find_element(By.CSS_SELECTOR, f".senat-cat-item:nth-child({i}) a").click()
         
